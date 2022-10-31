@@ -1,16 +1,22 @@
-
+body {
+    margin: 0;
+}
 
 .gridcontainer {
     display: grid;
-    grid-template-columns: [first] 40px [line2] 50px;
-    grid-template-rows: [row1-start] 70px [line2];
+    grid-template-columns: [first] 20vw [line2] auto;
+    grid-template-rows: [row1-start] 20vh [line2] ;
+    height: 100vh;
 }
 
 .leftbar {
     background-color: lightcoral;
     grid-column-start: 1;
     grid-column-end: 2 ;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
+
 
 .topbar {
     background-color: aqua;
@@ -18,4 +24,5 @@
 
 .main {
     background-color: blueviolet;
+    grid-column-start: 2;
 }
