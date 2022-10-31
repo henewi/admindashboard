@@ -25,4 +25,17 @@ body {
 .main {
     background-color: blueviolet;
     grid-column-start: 2;
+    display: grid;
+    grid-template-columns: [first] 70% [line2] auto;
+    grid-template-rows: [first] 50% [line2] 50%; 
+}
+
+.projects {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: purple;
+}
+
+.announcements {
+    background-color: blue;
 }
