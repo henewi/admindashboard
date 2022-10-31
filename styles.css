@@ -2,6 +2,8 @@ body {
     margin: 0;
 }
 
+/* Main Grid Section */
+
 .gridcontainer {
     display: grid;
     grid-template-columns: [first] 20vw [line2] auto;
@@ -21,6 +23,8 @@ body {
 .topbar {
     background-color: aqua;
 }
+
+/* Projects, announcements and trending */
 
 .main {
     background-color: blueviolet;
