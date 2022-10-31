@@ -1,0 +1,21 @@
+
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: [first] 40px [line2] 50px;
+    grid-template-rows: [row1-start] 70px [line2];
+}
+
+.leftbar {
+    background-color: lightcoral;
+    grid-column-start: 1;
+    grid-column-end: 2 ;
+}
+
+.topbar {
+    background-color: aqua;
+}
+
+.main {
+    background-color: blueviolet;
+}
