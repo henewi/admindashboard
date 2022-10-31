@@ -1,5 +1,11 @@
+@font-face {
+    font-family: sfpro;
+    src: url(./font/SFPRODISPLAYREGULAR.OTF);
+}
+
 body {
     margin: 0;
+    font-family: sfpro;
 }
 
 /* Main Grid Section */
@@ -17,6 +23,11 @@ body {
     grid-column-end: 2 ;
     grid-row-start: 1;
     grid-row-end: 3;
+    background-image: url(./images/spaceimage.jpg);
+    background-size: cover;
+    border-right-color: white;
+    border-right-width: 0.5vw;
+    border-right-style: solid;
 }
 
 
@@ -42,4 +53,38 @@ body {
 
 .announcements {
     background-color: blue;
+}
+
+/* Left Bar (lb-xxxx) */ 
+
+.leftbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.lb-container {
+    margin-left: 2vw ;
+    margin-top:  2vw ;
+    font-size: 3vh;
+    color: white;
+}
+
+.lb-dashboard {
+    font-size: 4vh;
+    font-weight: 900;
+    margin-bottom: 3vh;
+}
+
+.lb-tasks {
+    margin-bottom: 3vh;
+}
+
+.lb-github {
+    position: absolute;
+    bottom: 3vh;
+    color: rgb(109, 109, 109);
+}
+
+.lb-container:hover {
+    cursor: pointer;
 }
