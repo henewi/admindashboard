@@ -13,7 +13,7 @@ body {
 .gridcontainer {
     display: grid;
     grid-template-columns: [first] 20vw [line2] auto;
-    grid-template-rows: [row1-start] 20vh [line2] ;
+    grid-template-rows: [row1-start] 19vh [line2] ;
     height: 100vh;
 }
 
@@ -44,13 +44,13 @@ body {
     grid-column-start: 2;
     display: grid;
     grid-template-columns: [first] 70% [line2] auto;
-    grid-template-rows: [first] 50% [line2] 50%; 
+    grid-template-rows: [first] 50% [line2] 48%; 
 }
 
 .projects {
     grid-row-start: 1;
     grid-row-end: 3;
-    background-color: purple;
+    /* background-color: purple; */
 }
 
 /* Left Bar (lb-xxxx) */ 
@@ -216,3 +216,50 @@ body {
 .tr4 {
     margin: 1vh;
 }
+
+.projects {
+    margin: 2vh;
+    margin-left: 6vh;
+    margin-right: 5vh;
+    box-shadow: inset 0px 0px 1vw rgba(0, 0, 0, 0.349);
+    border-radius: 3vh;
+}
+
+.projectscont {
+    margin: 4vh;
+    display: grid;
+    grid-template-columns: [first] 31.3% [line2] 31.3% [line3] 31.3%;
+    grid-template-rows: [row1-start] 32.5vh [line2] 32.5vh ;
+    grid-gap: 3vh;
+}
+
+.p1 {
+    background-color: rgb(19, 19, 19);
+    border-radius: 1vw;
+}
+
+.p2 {
+    background-color: rgb(19, 19, 19);
+    border-radius: 1vw;
+}
+
+.p3 {
+    background-color: rgb(19, 19, 19);
+    border-radius: 1vw;
+}
+
+.p4 {
+    background-color: rgb(19, 19, 19);
+    border-radius: 1vw;
+}
+
+.p5 {
+    background-color: rgb(19, 19, 19);
+    border-radius: 1vw;
+}
+
+.p6 {
+    background-color: rgb(19, 19, 19);
+    border-radius: 1vw;
+}
+
