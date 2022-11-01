@@ -152,3 +152,67 @@ body {
     font-weight: bold;
     margin-bottom: 1vh;
 }
+
+.trending {
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;
+    padding-top: 2vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    font-size: 2.5vh;
+    border: 0.2vh black solid;
+    border-radius: 2vh;
+}
+
+.tr-title {
+    font-weight: bold;
+}
+
+.tr1cont {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    height: 17%;
+    border-radius: 1vh;
+    margin-top: 1vh;
+}
+
+.tr1 {
+    margin: 1vh;
+}
+
+.tr2cont {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    height: 17%;
+    border-radius: 1vh;
+    margin-top: 1vh;
+}
+
+.tr2 {
+    margin: 1vh;
+}
+
+.tr3cont {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    height: 17%;
+    border-radius: 1vh;
+    margin-top: 1vh;
+}
+
+.tr3 {
+    margin: 1vh;
+}
+
+.tr4cont {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    height: 17%;
+    border-radius: 1vh;
+    margin-top: 1vh;
+}
+
+.tr4 {
+    margin: 1vh;
+}
