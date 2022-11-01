@@ -32,7 +32,9 @@ body {
 
 
 .topbar {
-    background-color: aqua;
+    /* background-color: aqua; */
+    margin-left: 3vw;
+    margin-top: 2vh;
 }
 
 /* Projects, announcements and trending */
@@ -98,4 +100,14 @@ body {
 
 .tb-topsection {
     display: flex;
+    padding: 10px
+}
+
+.tb-searchbar {
+    width: 60%;
+    border-radius: 1vw;
+    height: 4vh;
+    border: none;
+    box-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.384);
+    padding-left: 10px;
 }
