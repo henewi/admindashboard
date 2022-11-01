@@ -109,5 +109,18 @@ body {
     height: 4vh;
     border: none;
     box-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.384);
-    padding-left: 10px;
+    padding-left: 1.5vw;
+    font-family: sfpro;
+    font-size: 2.5vh;
+}
+
+.tb-profile {
+    font-family: sfpro;
+    font-size: 2.5vh;
+    margin-left: 27%;
+    margin-top: 1.05vh;
+}
+
+.tb-bottomsection {
+    font-size: ;
 }
