@@ -40,7 +40,7 @@ body {
 /* Projects, announcements and trending */
 
 .main {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     grid-column-start: 2;
     display: grid;
     grid-template-columns: [first] 70% [line2] auto;
@@ -51,10 +51,6 @@ body {
     grid-row-start: 1;
     grid-row-end: 3;
     background-color: purple;
-}
-
-.announcements {
-    background-color: blue;
 }
 
 /* Left Bar (lb-xxxx) */ 
@@ -139,4 +135,20 @@ body {
     background-color: black;
     border-radius: 50%;
 
+}
+
+.announcements {
+    font-family: sfpro;
+    font-size: 2.5vh;
+    margin: 2vh;
+    padding-top: 2vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    border: 0.2vh black solid;
+    border-radius: 2vh;
+}
+
+.announcements-title {
+    font-weight: bold;
+    margin-bottom: 1vh;
 }
