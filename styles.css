@@ -100,7 +100,7 @@ body {
 
 .tb-topsection {
     display: flex;
-    padding: 10px
+    margin-top: 2vh;
 }
 
 .tb-searchbar {
@@ -122,5 +122,21 @@ body {
 }
 
 .tb-bottomsection {
-    font-size: ;
+    font-size: 3.5vh;
+    display: flex;
+    margin-left: 1vw;
+    margin-top: 3vh;
+}
+
+.tb-name {
+    margin-left: 1vw;
+    margin-top: 0.3vh;
+}
+
+.tb-logo {
+    height: 5vh;
+    width: 5vh;
+    background-color: black;
+    border-radius: 50%;
+
 }
